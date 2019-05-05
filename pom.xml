@@ -3,10 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>site.yangliang</groupId>
-    <artifactId>frameworks-integration</artifactId>
+    <artifactId>java-program-design</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>core-concepts-and-design-methods</module>
+        <module>javase-libs-use</module>
+        <module>framworks-integration</module>
+    </modules>
 
     <build>
         <plugins>
