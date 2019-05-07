@@ -2,8 +2,12 @@ package site.yangliang.ccadm.practice;
 
 public class Search {
 
-	public static  int search(int[] numbers,int key){
+	public static int search(int[] numbers, int key){
+		for(int i=0;i<numbers.length;i++)
 
-		return 0;
+		if(numbers[i]==key)
+		return i;
+		return key;
 	}
+
 }
