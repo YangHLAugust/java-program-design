@@ -41,23 +41,23 @@ public  class  DataTypes {
         Apple,
 
 
-        orange;
+        Orange;
     }
 
 
+    static class AClass{
+        int  a;
+        long b;
+        String text;
+        enum  Apple{Big,Small}
+
+        class Inner {
+            String something="xyz";
+        }
+    }
 
     public static void main(String[] args){
 
     }
 }
 
-class AClass{
-    int  a;
-    long b;
-    String text;
-    enum  Apple{Big,Small}
-
-   class Inner {
-        String something="xyz";
-    }
-}
