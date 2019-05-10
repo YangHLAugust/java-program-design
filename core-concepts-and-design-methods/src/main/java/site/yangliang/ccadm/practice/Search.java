@@ -11,7 +11,7 @@ public class Search {
 	public static int search(int[] numbers, int key) throws MyException {
 		for(int i=0;i<numbers.length;i++) {
 			if (numbers[i] == key) {
-			return i;
+				return i;
 			}
 		}
 		throw new MyException(key);
@@ -45,6 +45,7 @@ public class Search {
 			if (key < numbers[mid]) {
 				max=mid;
 			} else if (key > numbers[mid]) {
+
 				min = mid;
 			} else {
 			System.out.println("key has been found is "+numbers[mid]);break;
