@@ -58,7 +58,7 @@ public class Search {
 
 			try {
 				//Search.search(new int[]{1,2},3);
-				binarySearch(new int[]{5,8,13,2,4,89,65,44},89);
+				binarySearch(new int[]{5,8,13,2,4,89,65,44},44);
 			}catch (MyException e){
 				e.printStackTrace();
 			}
