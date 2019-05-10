@@ -12,6 +12,8 @@ public class Search {
 		for(int i=0;i<numbers.length;i++) {
 			if (numbers[i] == key) {
 				return i;
+
+				
 			}
 		}
 		throw new MyException(key);
